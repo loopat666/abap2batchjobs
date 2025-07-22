@@ -17,13 +17,22 @@ Table : `ZZABAP02TB5001` : Batch job Setting Table.
 <img width="1568" height="323" alt="image" src="https://github.com/user-attachments/assets/94ab79ea-3504-44b7-822c-98c5e53a7ee7" />
 
 
+
 ### Program
 
 **Execution Prog**
 
-ABAP Program
+ABAP Program, execute in Variants
+
+```mermaid
+graph TD;
+    ZVAR01-->ZVAR02-->ZVAR03-->ZVAR04;
+```
+
+<img width="1652" height="833" alt="image" src="https://github.com/user-attachments/assets/b0c53c4c-211a-4d05-87ef-2eccff5824da" />
 
 [code @zzabap02batchr010.prog.abap](/src/zzabap02batchr010.prog.abap)
+
 
 
 **Job Setting Prog**
